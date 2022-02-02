@@ -1,0 +1,32 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+  "name": "caderno 96 folhas",
+  "price": 13.20
+}
+
+###
+
+GET  http://localhost:4002/products
+
+###
+// Lembrar de inserir o ID
+
+GET  http://localhost:4002/products/
+
+###
+// Lembrar de inserir o ID
+
+PUT http://localhost:4002/products/
+content-type: application/json
+
+{
+  "name": "caderno 96 folhas preto",
+  "price": 9.50
+}
+
+###
+// Lembrar de inserir o ID
+
+DELETE http://localhost:4002/products/
